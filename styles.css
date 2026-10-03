@@ -205,4 +205,5 @@ footer {
 @media (max-width: 600px) {
   .hero h1 { font-size: 2rem; }
   h1 { font-size: 1.7rem; }
+  table { display: block; overflow-x: auto; }
 }
