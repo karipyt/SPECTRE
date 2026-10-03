@@ -15,7 +15,7 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", "Gill Sans Nova", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Gill Sans Nova", "Trebuchet MS", Calibri,  sans-serif;
   color: var(--text);
   background: var(--bg);
   line-height: 1.65;
