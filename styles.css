@@ -1,12 +1,12 @@
 /* ---------- Colours & basics (edit the colours here) ---------- */
 :root {
-  --bg: #25272b;
-  --bg-soft: #25272b;
-  --text: #1c2430;
-  --muted: #5d6b7d;
-  --line: #dde3ea;
-  --accent: #1f5eff;
-  --dark: #0e1726;
+--bg: #0e1726;
+--bg-soft: #172236;
+--text: #e6ebf2;
+--muted: #9aa8bb;
+--line: #263248;
+--accent: #6f9bff;
+--dark: #ffffff;
 }
 
 * { box-sizing: border-box; }
