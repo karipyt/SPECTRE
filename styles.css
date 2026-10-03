@@ -1,14 +1,14 @@
 /* ---------- Colours (edit these to restyle the whole site) ---------- */
 :root {
-  --bg: #080c14;            /* main page background */
-  --bg-soft: #111827;       /* cards, table headers, placeholders */
-  --text: #eef2f8;          /* body text (bright) */
-  --heading: #ffffff;       /* headings (brightest) */
-  --muted: #b4c0d2;         /* secondary text, still easy to read */
-  --line: #25324a;          /* thin border lines */
-  --accent: #5ee7ff;        /* links, highlights, small labels */
-  --accent-tint: rgba(94, 231, 255, 0.12);  /* highlighted tab background */
-  --neon: #00e5ff;          /* the glow colour for SPECTRE */
+  --bg: #080c14;
+  --bg-soft: #111827;
+  --text: #eef2f8;
+  --heading: #ffffff;
+  --muted: #b4c0d2;
+  --line: #25324a;
+  --accent: #5ee7ff;
+  --accent-tint: rgba(94, 231, 255, 0.12);
+  --neon: #00e5ff;
 }
 
 * { box-sizing: border-box; }
@@ -25,16 +25,16 @@ body {
 
 /* ---------- Neon glow (used on SPECTRE) ---------- */
 .glow {
-  color: #eafcff;
+  color: #f2feff;
   text-shadow:
     0 0 4px #ffffff,
     0 0 10px var(--neon),
-    0 0 22px var(--neon),
-    0 0 42px var(--neon),
-    0 0 80px var(--neon);
+    0 0 20px var(--neon),
+    0 0 40px var(--neon),
+    0 0 80px var(--neon),
+    0 0 120px var(--neon);
 }
 
-/* Gentle pulsing of the big homepage title */
 .glow-pulse { animation: pulse 3.5s ease-in-out infinite; }
 
 @keyframes pulse {
@@ -168,7 +168,8 @@ img.media {
 
 .card ul { margin: 0; padding-left: 20px; color: var(--text); }
 .card li { margin-bottom: 4px; }
-/* ---------- Tables ---------- */
+
+/* ---------- Tables (full width) ---------- */
 table {
   width: 100%;
   border-collapse: separate;
@@ -186,7 +187,6 @@ tbody tr:hover { background: #0f1625; }
 td a { color: var(--accent); font-weight: 500; text-decoration: none; }
 td a:hover { text-decoration: underline; }
 
-/* Round the table's corners */
 th:first-child { border-top-left-radius: 7px; }
 th:last-child { border-top-right-radius: 7px; }
 tbody tr:last-child td:first-child { border-bottom-left-radius: 7px; }
