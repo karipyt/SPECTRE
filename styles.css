@@ -207,3 +207,11 @@ footer {
   h1 { font-size: 1.7rem; }
   table { display: block; overflow-x: auto; }
 }
+
+.embed {
+  margin-top: 24px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.embed iframe { width: 100%; height: 650px; border: 0; display: block; }
