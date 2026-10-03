@@ -15,7 +15,7 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Gill Sans Nova", Calibri, "Trebuchet MS", sans-serif;
   color: var(--text);
   background: var(--bg);
   line-height: 1.65;
@@ -26,7 +26,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--bg);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
@@ -90,7 +90,7 @@ h3 { font-size: 1.1rem; margin: 0 0 10px; color: var(--dark); }
 
 /* ---------- Hero ---------- */
 .hero {
-  background: var(--dark);
+  background: #070d18;
   color: #fff;
   padding: 80px 24px;
   text-align: center;
